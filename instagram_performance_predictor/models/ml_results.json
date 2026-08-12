@@ -1,0 +1,387 @@
+{
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.8708333333333333,
+      "f1_macro": 0.8707242150322027,
+      "report": {
+        "low": {
+          "precision": 0.9214659685863874,
+          "recall": 0.9386666666666666,
+          "f1-score": 0.9299867899603699,
+          "support": 1500.0
+        },
+        "medium": {
+          "precision": 0.8469251336898396,
+          "recall": 0.8446666666666667,
+          "f1-score": 0.8457943925233645,
+          "support": 1500.0
+        },
+        "high": {
+          "precision": 0.822237017310253,
+          "recall": 0.8233333333333334,
+          "f1-score": 0.8227848101265823,
+          "support": 1500.0
+        },
+        "viral": {
+          "precision": 0.8921302578018996,
+          "recall": 0.8766666666666667,
+          "f1-score": 0.8843308675184937,
+          "support": 1500.0
+        },
+        "accuracy": 0.8708333333333333,
+        "macro avg": {
+          "precision": 0.8706895943470949,
+          "recall": 0.8708333333333333,
+          "f1-score": 0.8707242150322027,
+          "support": 6000.0
+        },
+        "weighted avg": {
+          "precision": 0.8706895943470949,
+          "recall": 0.8708333333333333,
+          "f1-score": 0.8707242150322027,
+          "support": 6000.0
+        }
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.9101666666666667,
+      "f1_macro": 0.9101141075222957,
+      "report": {
+        "low": {
+          "precision": 0.9448183041722745,
+          "recall": 0.936,
+          "f1-score": 0.9403884795713329,
+          "support": 1500.0
+        },
+        "medium": {
+          "precision": 0.8839704896042925,
+          "recall": 0.8786666666666667,
+          "f1-score": 0.8813105984620528,
+          "support": 1500.0
+        },
+        "high": {
+          "precision": 0.8843582887700535,
+          "recall": 0.882,
+          "f1-score": 0.883177570093458,
+          "support": 1500.0
+        },
+        "viral": {
+          "precision": 0.9273084479371316,
+          "recall": 0.944,
+          "f1-score": 0.9355797819623389,
+          "support": 1500.0
+        },
+        "accuracy": 0.9101666666666667,
+        "macro avg": {
+          "precision": 0.9101138826209381,
+          "recall": 0.9101666666666667,
+          "f1-score": 0.9101141075222957,
+          "support": 6000.0
+        },
+        "weighted avg": {
+          "precision": 0.9101138826209381,
+          "recall": 0.9101666666666667,
+          "f1-score": 0.9101141075222957,
+          "support": 6000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1404,
+          83,
+          8,
+          5
+        ],
+        [
+          82,
+          1318,
+          81,
+          19
+        ],
+        [
+          0,
+          90,
+          1323,
+          87
+        ],
+        [
+          0,
+          0,
+          84,
+          1416
+        ]
+      ]
+    },
+    "xgboost": {
+      "accuracy": 0.903,
+      "f1_macro": 0.9029098981634338,
+      "report": {
+        "low": {
+          "precision": 0.94006734006734,
+          "recall": 0.9306666666666666,
+          "f1-score": 0.9353433835845896,
+          "support": 1500.0
+        },
+        "medium": {
+          "precision": 0.8774410774410775,
+          "recall": 0.8686666666666667,
+          "f1-score": 0.8730318257956449,
+          "support": 1500.0
+        },
+        "high": {
+          "precision": 0.8723262032085561,
+          "recall": 0.87,
+          "f1-score": 0.8711615487316422,
+          "support": 1500.0
+        },
+        "viral": {
+          "precision": 0.9217731421121251,
+          "recall": 0.9426666666666667,
+          "f1-score": 0.9321028345418589,
+          "support": 1500.0
+        },
+        "accuracy": 0.903,
+        "macro avg": {
+          "precision": 0.9029019407072747,
+          "recall": 0.903,
+          "f1-score": 0.9029098981634338,
+          "support": 6000.0
+        },
+        "weighted avg": {
+          "precision": 0.9029019407072747,
+          "recall": 0.903,
+          "f1-score": 0.9029098981634339,
+          "support": 6000.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1396,
+          92,
+          9,
+          3
+        ],
+        [
+          89,
+          1303,
+          96,
+          12
+        ],
+        [
+          0,
+          90,
+          1305,
+          105
+        ],
+        [
+          0,
+          0,
+          86,
+          1414
+        ]
+      ]
+    },
+    "pre_posting_rf": {
+      "accuracy": 0.24633333333333332,
+      "f1_macro": 0.24621055239131703,
+      "report": {
+        "low": {
+          "precision": 0.2627173213135866,
+          "recall": 0.272,
+          "f1-score": 0.26727808712741563,
+          "support": 1500.0
+        },
+        "medium": {
+          "precision": 0.24544179523141654,
+          "recall": 0.23333333333333334,
+          "f1-score": 0.23923444976076555,
+          "support": 1500.0
+        },
+        "high": {
+          "precision": 0.2369980250164582,
+          "recall": 0.24,
+          "f1-score": 0.23848956608148394,
+          "support": 1500.0
+        },
+        "viral": {
+          "precision": 0.2396804260985353,
+          "recall": 0.24,
+          "f1-score": 0.23984010659560293,
+          "support": 1500.0
+        },
+        "accuracy": 0.24633333333333332,
+        "macro avg": {
+          "precision": 0.24620939191499913,
+          "recall": 0.24633333333333335,
+          "f1-score": 0.24621055239131703,
+          "support": 6000.0
+        },
+        "weighted avg": {
+          "precision": 0.2462093919149992,
+          "recall": 0.24633333333333332,
+          "f1-score": 0.246210552391317,
+          "support": 6000.0
+        }
+      }
+    }
+  },
+  "full_importances": [
+    [
+      "engagement_rate",
+      0.461323082447052
+    ],
+    [
+      "virality_score",
+      0.10784080624580383
+    ],
+    [
+      "save_rate",
+      0.052558351308107376
+    ],
+    [
+      "comment_like_ratio",
+      0.02702656202018261
+    ],
+    [
+      "saves",
+      0.024722682312130928
+    ],
+    [
+      "likes",
+      0.022988898679614067
+    ],
+    [
+      "impression_reach_ratio",
+      0.021449023857712746
+    ],
+    [
+      "share_rate",
+      0.018784046173095703
+    ],
+    [
+      "impressions",
+      0.015125780366361141
+    ],
+    [
+      "shares",
+      0.014038118533790112
+    ],
+    [
+      "comments",
+      0.01395938079804182
+    ],
+    [
+      "total_interactions",
+      0.013601341284811497
+    ],
+    [
+      "engagement_depth",
+      0.013383489102125168
+    ],
+    [
+      "reach",
+      0.012282684445381165
+    ],
+    [
+      "is_morning",
+      0.01217739935964346
+    ]
+  ],
+  "pre_importances": [
+    [
+      "caption_length",
+      0.16431829385050986
+    ],
+    [
+      "follower_count",
+      0.1277354938024599
+    ],
+    [
+      "hashtags_count",
+      0.12400412909518761
+    ],
+    [
+      "content_category_enc",
+      0.10459421839239752
+    ],
+    [
+      "traffic_source_enc",
+      0.08132016464483671
+    ],
+    [
+      "day_of_week_enc",
+      0.07732930092605139
+    ],
+    [
+      "post_hour",
+      0.061360507624780555
+    ],
+    [
+      "hour_cos",
+      0.05675610478744848
+    ],
+    [
+      "hour_sin",
+      0.0559313156296512
+    ],
+    [
+      "media_type_enc",
+      0.04917108196471506
+    ]
+  ],
+  "classes": [
+    "low",
+    "medium",
+    "high",
+    "viral"
+  ],
+  "full_features": [
+    "follower_count",
+    "has_call_to_action",
+    "post_hour",
+    "caption_length",
+    "hashtags_count",
+    "engagement_rate",
+    "reach",
+    "impressions",
+    "likes",
+    "comments",
+    "shares",
+    "saves",
+    "followers_gained",
+    "total_interactions",
+    "save_rate",
+    "comment_like_ratio",
+    "share_rate",
+    "impression_reach_ratio",
+    "virality_score",
+    "engagement_depth",
+    "is_weekend",
+    "is_prime_time",
+    "is_morning",
+    "hour_sin",
+    "hour_cos",
+    "media_type_enc",
+    "content_category_enc",
+    "traffic_source_enc",
+    "account_type_enc",
+    "day_of_week_enc"
+  ],
+  "pre_features": [
+    "follower_count",
+    "has_call_to_action",
+    "post_hour",
+    "caption_length",
+    "hashtags_count",
+    "is_weekend",
+    "is_prime_time",
+    "is_morning",
+    "hour_sin",
+    "hour_cos",
+    "media_type_enc",
+    "content_category_enc",
+    "traffic_source_enc",
+    "account_type_enc",
+    "day_of_week_enc"
+  ]
+}
